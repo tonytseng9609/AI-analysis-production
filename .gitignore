@@ -1,8 +1,27 @@
+# Dependencies
 node_modules/
-build/
-dist/
-coverage/
+/.pnp
+.pnp.js
+
+# Production
+/dist
+/build
+/coverage
+
+# Misc
 .DS_Store
 *.log
+*.pem
+
+# Env
 .env*
 !.env.example
+
+# Editor directories and files
+.idea
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
